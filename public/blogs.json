@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co.com/bjDC7cTY/7088611-3527984.jpg",
+      "title": "The Future of AI",
+      "author": "John Doe",
+      "author_image": "https://i.ibb.co.com/spDTT5zc/download-14.jpg",
+      "posted_date": "2025-03-01",
+      "reading_time": 8,
+      "hashtags": ["AI", "Technology", "Future"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co.com/cS0gr7bB/36661288-8427817.jpg",
+      "title": "Mastering Python in 30 Days",
+      "author": "Jane Smith",
+      "author_image": "https://i.ibb.co.com/KpT9n0wc/download-13.jpg",
+      "posted_date": "2025-02-25",
+      "reading_time": 12,
+      "hashtags": ["Python", "Programming", "Coding"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co.com/j9RCMT4g/415532133-11636712.jpg",
+      "title": "The Rise of Electric Vehicles",
+      "author": "Emily Johnson",
+      "author_image": "https://i.ibb.co.com/qM7stnhm/17467.jpg",
+      "posted_date": "2025-02-20",
+      "reading_time": 10,
+      "hashtags": ["EV", "Sustainability", "Cars"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co.com/xtkT5wR6/137378135-10266200.jpg",
+      "title": "A Guide to Mindfulness Meditation",
+      "author": "Michael Brown",
+      "author_image": "https://i.ibb.co.com/4gt9DJXb/5677.jpg",
+      "posted_date": "2025-03-05",
+      "reading_time": 7,
+      "hashtags": ["Mindfulness", "Meditation", "Wellness"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co.com/84bPYwVm/24021176-6890049.jpg",
+      "title": "Exploring the Depths of the Ocean",
+      "author": "Sarah Lee",
+      "author_image": "https://i.ibb.co.com/8n4zMqJg/16320.jpg",
+      "posted_date": "2025-03-02",
+      "reading_time": 15,
+      "hashtags": ["Ocean", "Exploration", "Science"]
+    }
+  ]
+  
