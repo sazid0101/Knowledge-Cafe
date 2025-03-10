@@ -1,6 +1,6 @@
 import './Blog.css'
 import { BsBookmarksFill } from "react-icons/bs";
-const Blog = ({blog,handleAddToBookmark}) => {
+const Blog = ({blog,handleAddToBookmark,handleMarkAsRead}) => {
     const {cover,title,author,author_image,posted_date,reading_time,hashtags} = blog
     return (
         <div>
@@ -26,7 +26,9 @@ const Blog = ({blog,handleAddToBookmark}) => {
                     hashtags.map(hash => <a>#{hash}</a>)
                 }
             </p>
+            <button onClick={()=>handleMarkAsRead(reading_time)} className='text-fuchsia-900 underline font-bold'>Mark As Read</button>
             
+            <br />
             <br />
         </div>
     );
