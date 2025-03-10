@@ -1,5 +1,6 @@
 import './Blog.css'
-const Blog = ({blog}) => {
+import { BsBookmarksFill } from "react-icons/bs";
+const Blog = ({blog,handleAddToBookmark}) => {
     const {cover,title,author,author_image,posted_date,reading_time,hashtags} = blog
     return (
         <div>
@@ -12,7 +13,12 @@ const Blog = ({blog}) => {
                       <p>{posted_date}</p>
                     </div>
                 </div>
-                <span>{reading_time} min read</span>
+                <div>
+                    <span>{reading_time} min read</span>
+                    <button className='text-xl ml-2 text-green-800'
+                    onClick={()=>handleAddToBookmark(blog)}>
+                        <BsBookmarksFill></BsBookmarksFill></button>
+                </div>
             </div>
             <h1 className='text-2xl mt-2 font-bold'>Title: {title}</h1>
             <p>
