@@ -1,12 +1,26 @@
 import './Blog.css'
 const Blog = ({blog}) => {
-    const {cover,title,author,author_image} = blog
+    const {cover,title,author,author_image,posted_date,reading_time,hashtags} = blog
     return (
         <div>
             <img src={cover} alt="" srcset="" />
-            <h1 className='text-2xl'>{title}</h1>
-            <p>{author}</p>
-            <img className="author-img" src={author_image} alt="" srcset="" />
+            <div className='flex justify-between mt-2'>
+                <div className='flex'>
+                    <img className="w-16" src={author_image} alt="" srcset="" />
+                    <div className='ml-5'>
+                      <h3 className='font-bold'>{author}</h3>
+                      <p>{posted_date}</p>
+                    </div>
+                </div>
+                <span>{reading_time} min read</span>
+            </div>
+            <h1 className='text-2xl mt-2 font-bold'>Title: {title}</h1>
+            <p>
+                {
+                    hashtags.map(hash => <a>#{hash}</a>)
+                }
+            </p>
+            
             <br />
         </div>
     );
